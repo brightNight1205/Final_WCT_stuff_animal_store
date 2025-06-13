@@ -7,55 +7,77 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
+Build Status: In Development
+License: MIT
+Author: Men Sreytin
+Framework: Laravel 10+
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+📌 About the Project
+Stuffed Animals Store is a Laravel-based e-commerce backend system that manages user accounts, product data, shopping carts, wishlists, and orders. It supports product customization like adding hats, shirts, or skirts to stuffed animals.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+This project was created for academic learning and practical application of Laravel backend development, focusing on real-world database design and API implementation.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+🚀 Features
+User registration and login
 
-## Learning Laravel
+Product catalog with category and availability
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Wishlist and shopping cart
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+Custom product options (e.g., hat, shirt, skirt)
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+Secure order and billing management
 
-## Laravel Sponsors
+Database relationships using Eloquent ORM
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+RESTful API endpoints for frontend integration
 
-### Premium Partners
+🛠️ Technologies Used
+Laravel (PHP Framework)
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+MySQL
 
-## Contributing
+Eloquent ORM
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Laravel Sanctum (for authentication)
 
-## Code of Conduct
+Postman (for API testing)
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+🧩 Database Structure
+The system includes the following main tables:
 
-## Security Vulnerabilities
+Users, ShoppingCarts, Wishlist, Orders, BillingDetails
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+ProductDetails, ProductSingle, CategoryAnimal, Available, Customize
 
-## License
+📊 View full diagram: (Add your ERD image or link here)
+📎 Or view the slides: Click here to open the presentation
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+📈 Learning Outcomes
+How to design normalized databases
+
+Build secure REST APIs with Laravel
+
+Handle relationships like One-to-Many and Many-to-Many
+
+Manage complex features like product customization and cart systems
+
+🧠 Future Improvements
+Admin dashboard for product and order control
+
+Real-time stock alerts
+
+Payment integration (PayWay or Stripe)
+
+Frontend using Vue.js or React
+
+Mobile app support
+
+🤝 Contributing
+Pull requests and feedback are welcome for improvement or extension of the system.
+
+🔒 Security
+If you find any security issues, please report them directly to the project author.
+
+📄 License
+This project is open-source under the MIT License.
